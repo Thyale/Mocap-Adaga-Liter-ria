@@ -1,0 +1,61 @@
+/*Gerais*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: rgb(160, 129, 218);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Configurações do iphone*/
+
+.iphone>img{
+  position: absolute;
+  top:52%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.iphone>iframe{
+  position: absolute;
+  top:52%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+  width: 268px;
+  height: 470px;
+}
+
+/*Configurações dos links*/
+
+.links{
+  background-color: rgba(48, 4, 90, 0);
+  text-align: center;
+  margin-top:10px;
+}
+
+.links img{
+  width: 40px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.836);
+  box-shadow: 3px 3px 15px rgba(50, 49, 49, 0.455);
+  margin-bottom: 10px;
+}
+
+.links img:hover{
+  transform: translate(-3px, -3px);
+  transition: transform 0.5s;
+}
+
+@media(max-width:600px){
+  .links img{
+   width: 30px;
+  }
+}
